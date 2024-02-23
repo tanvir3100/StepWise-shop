@@ -2,8 +2,8 @@
 
 const Footer = () => {
     return (
-        <div>
-            <h1>The footer section</h1>
+        <div className="h-10">
+            <p className="text-center">@CopyRight free 2025</p>
         </div>
     );
 };
