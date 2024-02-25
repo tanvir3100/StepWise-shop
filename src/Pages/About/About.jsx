@@ -17,7 +17,7 @@ const About = () => {
                 lg:justify-between
                 ">
                     <div>
-
+                        <p className="text-3xl">This is About section</p>
                     </div>
                     <div>
 

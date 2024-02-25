@@ -24,7 +24,7 @@ const HeroRight = () => {
             </div>
             <div className="card">
                 <div className="rounded-xl group">
-                    <p className="text-lg border-gray-600 border-b-2 fonds">
+                    <p className="text-lg border-gray-600 border-b-2 w-1/2">
                         About Us
                     </p>
                     <p className="text-sm my-2">

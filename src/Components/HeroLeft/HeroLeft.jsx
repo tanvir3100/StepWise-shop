@@ -14,8 +14,8 @@ const HeroLeft = () => {
         <div className="w-80 sm:w-72 md:w-72 lg:w-56 xl:w-56 p-2 mt-6 flex flex-col gap-6">
             <div className="card">
                 <div className="rounded-xl group">
-                    <p className="text-lg border-gray-600 border-b-2">
-                        About Us
+                    <p className="text-lg border-gray-600 border-b-2 w-1/2">
+                        All Shoes 
                     </p>
                     <p className="text-sm my-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fuga ut magnam!
@@ -25,7 +25,7 @@ const HeroLeft = () => {
                     className="btn rounded-full 
                     bg-gradient-to-r from-[#80af83] to-[#f37698] border-none text-lg"
                 >
-                    Subscribe
+                    All Shoes
                 </button>
             </div>
             <div className="card group">
@@ -36,7 +36,7 @@ const HeroLeft = () => {
             </div>
             <div className="card">
                 <div className="rounded-xl group">
-                    <p className="text-lg border-gray-600 border-b-2">
+                    <p className="text-lg border-gray-600 border-b-2 w-1/2">
                         Contact Us
                     </p>
                     <p className="text-sm my-2">
