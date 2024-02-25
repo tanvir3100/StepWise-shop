@@ -1,6 +1,5 @@
 import HeroCard from "../HeroCard/HeroCard";
 
-
 const HeroRight = () => {
     return (
         <div

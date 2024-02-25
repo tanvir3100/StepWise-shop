@@ -1,6 +1,7 @@
 import { FaInstagramSquare, FaLinkedin, FaTwitterSquare, FaWhatsappSquare } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import HeroCard from "../HeroCard/HeroCard";
+import { Link } from "react-router-dom";
 
 const HeroLeft = () => {
     const icons = <>
@@ -15,7 +16,7 @@ const HeroLeft = () => {
             <div className="card">
                 <div className="rounded-xl group">
                     <p className="text-lg border-gray-600 border-b-2 w-1/2">
-                        All Shoes 
+                        All Shoes
                     </p>
                     <p className="text-sm my-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fuga ut magnam!
@@ -25,7 +26,9 @@ const HeroLeft = () => {
                     className="btn rounded-full 
                     bg-gradient-to-r from-[#80af83] to-[#f37698] border-none text-lg"
                 >
-                    All Shoes
+                    <Link to='/allShoes'>
+                        All Shoes
+                    </Link>
                 </button>
             </div>
             <div className="card group">
