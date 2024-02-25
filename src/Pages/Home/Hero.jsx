@@ -11,6 +11,7 @@ const Hero = () => {
                 w-full
                 flex
                 flex-col
+                md:flex-row
                 lg:flex-row 
                 items-center
                 justify-center

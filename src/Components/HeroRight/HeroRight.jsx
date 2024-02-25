@@ -3,7 +3,7 @@ import HeroCard from "../HeroCard/HeroCard";
 
 const HeroRight = () => {
     return (
-        <div className="w-56 p-2 mt-10 lg:mt-6 flex flex-col gap-6">
+        <div className="w-80 sm:w-72 md:w-72 lg:w-56 xl:w-64 p-2 mt-10 lg:mt-6 flex flex-col gap-6">
             <div className="card group">
                 <HeroCard
                     heading={'Air Force 1 shoes'}
