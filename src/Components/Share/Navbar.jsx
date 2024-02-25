@@ -20,12 +20,12 @@ const Navbar = () => {
             About
         </NavLink>
         <NavLink
-            to="/Connect"
+            to="/contact"
             className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-red-500 underline" : ""
             }
         >
-            Connect
+            Contact
         </NavLink>
     </>
     return (
