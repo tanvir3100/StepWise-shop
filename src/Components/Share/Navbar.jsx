@@ -6,7 +6,7 @@ import Drawer from "../Drawer/Drawer";
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar fixed text-white px-5 mx-auto">
+            <div className="navbar fixed text-white px-5 mx-auto bg-opacity-50">
                 <div className="navbar-start">
                 </div>
                 <div className="navbar-center flex w-40">
