@@ -12,7 +12,7 @@ const HeroLeft = () => {
         <FaLinkedin />
     </>
     return (
-        <div className="w-80 sm:w-72 md:w-72 lg:w-56 xl:w-56 p-2 mt-6 flex flex-col gap-6">
+        <div className="w-80 sm:w-72 md:w-72 lg:w-56 xl:w-56 p-2 flex flex-col gap-6">
             <div className="card">
                 <div className="rounded-xl group">
                     <p className="text-lg border-gray-600 border-b-2 w-1/2">

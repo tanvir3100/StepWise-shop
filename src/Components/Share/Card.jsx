@@ -7,14 +7,14 @@ const Card = ({ category }) => {
         <div className="flex flex-grow">
             <div className="card shadow-xl rounded-none">
                 <figure>
-                    <img className="h-32 sm:h-36 md:h-40 lg:h-44 xl:h-48 w-full" src={category.image} alt="Shoes" />
+                    <img className="h-32 sm:h-36 md:h-40 lg:h-44 xl:h-48 w-44 sm:w-52 md:w-56 lg:w-60 xl:w-64" src={category.image} alt="Shoes" />
                 </figure>
-                <div className="card-body p-2 sm:p-4 md:p-5 lg:p-6 bg-opacity-50 flex flex-grow">
-                    <h2 className="text-xl lg:text-3xl">{category.name}</h2>
+                <div className="card-body p-2 sm:p-4 md:p-5 lg:p-6 bg-base-100 bg-opacity-50 flex flex-grow">
+                    <h2 className="text-xl lg:text-2xl">{category.name}</h2>
                     <p>{category.category}</p>
-                    <p>{category.price}</p>
+                    <p>Price: ${category.price}</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <button className="btn border-none bg-gradient-to-r from-[#ff2c2c] to-[#de2d19] text-white">Buy Now</button>
                     </div>
                 </div>
             </div>
