@@ -1,16 +1,19 @@
 import { useState } from 'react';
-import categories from '../../../public/category.json'
 import Card from '../../Components/Share/Card';
+import useShoes from '../../hooks/useShoes';
+
 
 const AllShoes = () => {
     const [filterCategory, setFilterCategory] = useState(null);
-    const [sortOption, setSortOption] = useState(null);
+    const [sortOption, setSortOption] = useState(null)
+    const [shoes] = useShoes();
+
 
     const handleClick = (shoes, category) => {
         setFilterCategory(category ? category.toLowerCase() : null);
     };
 
-    const filteredCollection = categories.filter(item => {
+    const filteredCollection = shoes.filter(item => {
         const categoryMatch = !filterCategory || item.category.toLowerCase() === filterCategory;
         return categoryMatch;
         // return  brandMatch && categoryMatch;
@@ -64,7 +67,7 @@ const AllShoes = () => {
                             </label>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-6 gap-5">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-6 gap-2 md:gap-3 lg:gap-5">
                         {
                             sortedCollection.map(category => <Card key={category.id} category={category} />)
                         }

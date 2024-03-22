@@ -4,10 +4,10 @@ import HeroRight from "../../Components/HeroRight/HeroRight";
 const Hero = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-center bg-cover object-cover px-4 mx-auto"
+            <div className="hero min-h-[calc(100vh-64px)] bg-center bg-cover object-cover px-4 mx-auto"
                 style={{ backgroundImage: 'url(https://i.ibb.co/RNzVBty/Default-beautiful-shoe-nike-for-website-background-image-with-1.jpg)' }}>
                 <div className="
-                h-full 
+                h-5/6 
                 w-full
                 flex
                 flex-col

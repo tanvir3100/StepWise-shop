@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 const HeroLeft = () => {
     const icons = <>
-        <FaInstagramSquare />
-        <FaSquareFacebook />
-        <FaWhatsappSquare />
-        <FaTwitterSquare />
-        <FaLinkedin />
+        <FaInstagramSquare className="hover:scale-110"/>
+        <FaSquareFacebook className="hover:scale-110"/>
+        <FaWhatsappSquare className="hover:scale-110"/>
+        <FaTwitterSquare className="hover:scale-110"/>
+        <FaLinkedin className="hover:scale-110"/>
     </>
     return (
         <div className="w-80 sm:w-72 md:w-72 lg:w-56 xl:w-56 p-2 flex flex-col gap-6">
